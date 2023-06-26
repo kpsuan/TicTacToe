@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    background: #1C1B1A;
+}
+.tile{
+    width: 90px;
+    height: 90px;
+    border: 2px solid;
+    border-radius: 7px;
+    margin: 2px;
+    box-shadow: 0 0 0 2px;
+    line-height: 90px;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#cellCont{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: auto;
+}
+
+#gameWrapper{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #d9b926;
+    font-size: 30px;
+}
+
+h1{
+    color: #ccc;
+}
+
+button{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px ;
+    border: none;
+    outline: none;
+    background-color: #d9b926;
+    border-radius: 7px;
+    color: #1C1B1A;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    transform: scale(0.96);
+}
+
